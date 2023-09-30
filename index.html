@@ -1,111 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="The personal website of merkleplant" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="0xrishabh website"/>
 
-    <link rel="icon" href="favicon.ico">
+    <title>0xrishabh</title>
 
-    <title>merkleplant</title>
-
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
 </head>
 
-<body>
+<body class="home">
+<div class="home">
     <div id="preamble">
-        <h1 class="title">merkleplant</h1>
+        <a href="https://github.com/iFrostizz"><h1 class="title">0xrishabh</h1></a>
 
-        <h1 class="subtitle">
-            contact me on
-            <a href="https://twitter.com/merkleplant_eth">twitter</a>,
-            <a href="https://github.com/pmerkleplant">github</a> or via
-            <a href="mailto:pascal@merkleplant.xyz">email</a>
-        </h1>
+        <h2 class="subtitle">
+            contact me via
+            <a href="https://github.com/0xrishabh">github</a>, or
+            <a href="https://twitter.com/rishabh">twitter</a>
+        </h2>
+
+        <br/>
     </div>
 
-    <div id="intro">
-        <p><b>Research Engineer building MakerDAO's oracles at
-                <a href="https://twitter.com/ChronicleLabs">Chronicle Labs</a></b>.</p>
-
-        <ul>
-            <li>
-                My main interests lie in the EVM, Smart Contract Security and Applied Cryptography.
-            </li>
-
-            <li>
-                Other areas of interest include Monetary Theory, P2P Networks and Compiler Techniques & Optimizations.
-            </li>
-        </ul>
-    </div>
-
-    <hr>
-
-    <div id="open-source-work">
-        <h2>Open Source Work</h2>
+    <div>
+        <h2>Current interests</h2>
         <div>
             <ul>
-                <li><a href="https://github.com/byterocket/c4udit/">
-                        <code>c4audit</code></a>:
-                    Static analyzer for Solidity contracts based on regular expressions.
-                </li>
-                <li><a href="https://github.com/pmerkleplant/elastic-receipt-token/">
-                        <code>elastic-receipt-token</code></a>:
-                    An ERC20 receipt token that rebases its supply continuously to a supply target while being
-                    non-dilutive.
-                </li>
-                <li><a href="https://github.com/byterocket/TSOwnable-Huff/">
-                        <code>TSOwnable-Huff</code></a>:
-                    A Two-Step Transfer Ownable contract written in Huff.
-                </li>
-                <li><a href="https://github.com/pmerkleplant/ampleforth-property-tests">
-                        <code>ampleforth-property-tests</code></a>:
-                    A project to collect and test properties of Ampleforth's AMPL token.
-                </li>
+                <li>EVM and gas golfing</li>
+                <li>Creative issues about smart contracts security</li>
+                <li>Algorithms & Data Structures</li>
+                <li>Everything related to Rust 🦀</li>
             </ul>
         </div>
-    </div>
 
-    <div id="publications">
-        <h2>Publications & Talks</h2>
         <div>
-            <ul>
-                <li><a href="https://garden.merkleplant.xyz/post/entering-the-huff-ecosystem">
-                        <code>Entering the Huff Ecosystem</code></a>:
-                    Introduces the new Huff programming language's ecosystem and libraries, and thoroughly explains
-                    the development process and functionality of a non-trivial Huff contract.
-                </li>
-                <li><a href="https://garden.merkleplant.xyz/post/ampleforth-is-hayek-money">
-                        <code>Ampleforth is Hayek Money</code></a>:
-                    Summarizes the concept of Hayek Money and argues that the AMPL token operated by the Ampleforth
-                    protocol is a Hayek Money.
-                </li>
-                <li><a href="https://garden.merkleplant.xyz/post/rugging-erc20-allowances-via-permit2/">
-                        <code>Rugging ERC20 Allowances via Permit2</code></a>:
-                    Introduces a new rug vector to steal Permit2 allowances via sandwich <code>selfdestruct</code>-ing
-                    and redeploying the token.
-                </li>
-                <li><a href="https://garden.merkleplant.xyz/post/introduction-to-solmate">
-                        <code>Introduction to solmate</code></a>:
-                    Walks through some <code>solmate</code> contracts, overflows its ERC20 implementation, and
-                    explains the assembly in <code>SafeTransferLib</code>.
-                </li>
+            <h2>Open source work</h2>
+            <div>
+                <ul>
+                    <li><a href="https://github.com/0xrishabh/websy"><code>websy</code></a>: reconnaissance tool for tracking changes in website</li>
+                    <li><a href="https://github.com/0xrishabh/hex"><code>hex</code></a>: a simple hex to decimal and vice versa converter  </li>
+                </ul>
+            </div>
 
-                <li>For more writings, see my <a href="https://garden.merkleplant.xyz"><code>garden</code></a>.
-                </li>
-            </ul>
+            <h2>Other</h2>
+            <div>
+                <ul>
+                    <li><a href="https://blog.0xrishabh.dev/2023/09/16/Contract-Deployment-From_EOA/"><code>A geth deep dive</code></a>: How does contract deployment works with an EOA?</li>
+                    <li><a href="https://blog.0xrishabh.dev/2022/03/05/Learning-Blockchain-Hacking/"><code>Learning Blockchain Security</code></a>: Resources for learning</li>
+                    <li><a href="https://blog.0xrishabh.dev/2021/08/23/Inti-XSS/"><code>INTIGRITI XSS solution</code></a>: A trial of unintented way</li>
+
+                </ul>
+            </div>
         </div>
     </div>
+</div>
 
-    <hr>
-
-    <div id="footer">
-        <p class="footer"><i>This website was modified from
-                <a href="https://github.com/gakonst/gakonst.github.io" />gakonst's fork</a> of
-                <a href="https://github.com/transmissions11/transmissions11.github.io" />t11s' fork</a> of the
-                <a href="https://github.com/dapphub/dapp-tools" />dapptools</a> website</i></p>
-        <br />
+<div id="footer">
+    <p class="footer">
+        <i> Many Forks Aways....</i>
+    </p>
+    <br/>
+</div>
 </body>
-
 </html>
